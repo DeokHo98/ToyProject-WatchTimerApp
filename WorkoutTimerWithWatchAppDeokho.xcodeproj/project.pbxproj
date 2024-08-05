@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20D6C392C606B0E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D6C382C606B0E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchAppApp.swift */; };
+		F20D6C3B2C606B0E00808AB0 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D6C3A2C606B0E00808AB0 /* TimerView.swift */; };
+		F20D6C3D2C606B1000808AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20D6C3C2C606B1000808AB0 /* Assets.xcassets */; };
+		F20D6C402C606B1000808AB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20D6C3F2C606B1000808AB0 /* Preview Assets.xcassets */; };
+		F20D6C432C606B1000808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F20D6C362C606B0E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F20D6C492C606B2C00808AB0 /* WorkOutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25EA7B32C605E76000273C5 /* WorkOutModel.swift */; };
+		F20D6C4B2C608B6D00808AB0 /* WorkOutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D6C4A2C608B6D00808AB0 /* WorkOutViewModel.swift */; };
+		F20D6C4D2C608F5700808AB0 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D6C4C2C608F5700808AB0 /* WorkoutView.swift */; };
+		F20D6C512C60914300808AB0 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D6C502C60914300808AB0 /* BannerView.swift */; };
+		F20D6C592C60A03C00808AB0 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20D6C582C60A03C00808AB0 /* WidgetKit.framework */; };
+		F20D6C5B2C60A03C00808AB0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20D6C5A2C60A03C00808AB0 /* SwiftUI.framework */; };
+		F20D6C5E2C60A03C00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D6C5D2C60A03C00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp.swift */; };
+		F20D6C622C60A03E00808AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20D6C612C60A03E00808AB0 /* Assets.xcassets */; };
+		F20D6C662C60A03E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchAppExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F20D6C562C60A03C00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchAppExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F25EA79B2C605D60000273C5 /* WorkoutTimerWithWatchAppDeokhoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25EA79A2C605D60000273C5 /* WorkoutTimerWithWatchAppDeokhoApp.swift */; };
+		F25EA79F2C605D61000273C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25EA79E2C605D61000273C5 /* Assets.xcassets */; };
+		F25EA7A22C605D61000273C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25EA7A12C605D61000273C5 /* Preview Assets.xcassets */; };
+		F25EA7AC2C605DB5000273C5 /* TimerVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25EA7AB2C605DB5000273C5 /* TimerVIew.swift */; };
+		F25EA7AE2C605DCE000273C5 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25EA7AD2C605DCE000273C5 /* WorkoutView.swift */; };
+		F25EA7B22C605E56000273C5 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25EA7B12C605E56000273C5 /* WorkoutViewModel.swift */; };
+		F25EA7B42C605E76000273C5 /* WorkOutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25EA7B32C605E76000273C5 /* WorkOutModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F20D6C412C606B1000808AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25EA78F2C605D60000273C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20D6C352C606B0E00808AB0;
+			remoteInfo = "WorkoutTimerWithWatchAppDeokhoWatchApp Watch App";
+		};
+		F20D6C642C60A03E00808AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25EA78F2C605D60000273C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20D6C552C60A03C00808AB0;
+			remoteInfo = WorkoutTimerWithWatchAppDeokhoWatchAppExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F20D6C6A2C60A03E00808AB0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F20D6C662C60A03E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchAppExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25EA7CB2C606435000273C5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F20D6C432C606B1000808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F20D6C362C606B0E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorkoutTimerWithWatchAppDeokhoWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20D6C382C606B0E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimerWithWatchAppDeokhoWatchAppApp.swift; sourceTree = "<group>"; };
+		F20D6C3A2C606B0E00808AB0 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		F20D6C3C2C606B1000808AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F20D6C3F2C606B1000808AB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F20D6C4A2C608B6D00808AB0 /* WorkOutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOutViewModel.swift; sourceTree = "<group>"; };
+		F20D6C4C2C608F5700808AB0 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		F20D6C502C60914300808AB0 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		F20D6C562C60A03C00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchAppExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WorkoutTimerWithWatchAppDeokhoWatchAppExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20D6C582C60A03C00808AB0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F20D6C5A2C60A03C00808AB0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F20D6C5D2C60A03C00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimerWithWatchAppDeokhoWatchApp.swift; sourceTree = "<group>"; };
+		F20D6C612C60A03E00808AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F20D6C632C60A03E00808AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20D6C6B2C60A80600808AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F25EA7972C605D60000273C5 /* WorkoutTimerWithWatchAppDeokho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutTimerWithWatchAppDeokho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25EA79A2C605D60000273C5 /* WorkoutTimerWithWatchAppDeokhoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimerWithWatchAppDeokhoApp.swift; sourceTree = "<group>"; };
+		F25EA79E2C605D61000273C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F25EA7A12C605D61000273C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F25EA7AB2C605DB5000273C5 /* TimerVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVIew.swift; sourceTree = "<group>"; };
+		F25EA7AD2C605DCE000273C5 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		F25EA7B12C605E56000273C5 /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
+		F25EA7B32C605E76000273C5 /* WorkOutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOutModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F20D6C332C606B0E00808AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20D6C532C60A03C00808AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20D6C5B2C60A03C00808AB0 /* SwiftUI.framework in Frameworks */,
+				F20D6C592C60A03C00808AB0 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25EA7942C605D60000273C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F20D6C372C606B0E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F20D6C382C606B0E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchAppApp.swift */,
+				F20D6C502C60914300808AB0 /* BannerView.swift */,
+				F20D6C4E2C60904700808AB0 /* Timer */,
+				F20D6C4F2C60905400808AB0 /* WorkOut */,
+				F20D6C3C2C606B1000808AB0 /* Assets.xcassets */,
+				F20D6C3E2C606B1000808AB0 /* Preview Content */,
+			);
+			path = "WorkoutTimerWithWatchAppDeokhoWatchApp Watch App";
+			sourceTree = "<group>";
+		};
+		F20D6C3E2C606B1000808AB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F20D6C3F2C606B1000808AB0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F20D6C4E2C60904700808AB0 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				F20D6C3A2C606B0E00808AB0 /* TimerView.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		F20D6C4F2C60905400808AB0 /* WorkOut */ = {
+			isa = PBXGroup;
+			children = (
+				F20D6C4C2C608F5700808AB0 /* WorkoutView.swift */,
+				F20D6C4A2C608B6D00808AB0 /* WorkOutViewModel.swift */,
+			);
+			path = WorkOut;
+			sourceTree = "<group>";
+		};
+		F20D6C572C60A03C00808AB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F20D6C582C60A03C00808AB0 /* WidgetKit.framework */,
+				F20D6C5A2C60A03C00808AB0 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F20D6C5C2C60A03C00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				F20D6C5D2C60A03C00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp.swift */,
+				F20D6C612C60A03E00808AB0 /* Assets.xcassets */,
+				F20D6C632C60A03E00808AB0 /* Info.plist */,
+			);
+			path = WorkoutTimerWithWatchAppDeokhoWatchApp;
+			sourceTree = "<group>";
+		};
+		F25EA78E2C605D60000273C5 = {
+			isa = PBXGroup;
+			children = (
+				F25EA7992C605D60000273C5 /* WorkoutTimerWithWatchAppDeokho */,
+				F20D6C372C606B0E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp Watch App */,
+				F20D6C5C2C60A03C00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp */,
+				F20D6C572C60A03C00808AB0 /* Frameworks */,
+				F25EA7982C605D60000273C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F25EA7982C605D60000273C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25EA7972C605D60000273C5 /* WorkoutTimerWithWatchAppDeokho.app */,
+				F20D6C362C606B0E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp Watch App.app */,
+				F20D6C562C60A03C00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchAppExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F25EA7992C605D60000273C5 /* WorkoutTimerWithWatchAppDeokho */ = {
+			isa = PBXGroup;
+			children = (
+				F20D6C6B2C60A80600808AB0 /* Info.plist */,
+				F25EA79A2C605D60000273C5 /* WorkoutTimerWithWatchAppDeokhoApp.swift */,
+				F25EA7A82C605D7F000273C5 /* Timer */,
+				F25EA7A92C605D8D000273C5 /* Workout */,
+				F25EA79E2C605D61000273C5 /* Assets.xcassets */,
+				F25EA7A02C605D61000273C5 /* Preview Content */,
+			);
+			path = WorkoutTimerWithWatchAppDeokho;
+			sourceTree = "<group>";
+		};
+		F25EA7A02C605D61000273C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F25EA7A12C605D61000273C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F25EA7A82C605D7F000273C5 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				F25EA7AB2C605DB5000273C5 /* TimerVIew.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		F25EA7A92C605D8D000273C5 /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				F25EA7AD2C605DCE000273C5 /* WorkoutView.swift */,
+				F25EA7B12C605E56000273C5 /* WorkoutViewModel.swift */,
+				F25EA7B32C605E76000273C5 /* WorkOutModel.swift */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F20D6C352C606B0E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20D6C442C606B1000808AB0 /* Build configuration list for PBXNativeTarget "WorkoutTimerWithWatchAppDeokhoWatchApp Watch App" */;
+			buildPhases = (
+				F20D6C322C606B0E00808AB0 /* Sources */,
+				F20D6C332C606B0E00808AB0 /* Frameworks */,
+				F20D6C342C606B0E00808AB0 /* Resources */,
+				F20D6C6A2C60A03E00808AB0 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F20D6C652C60A03E00808AB0 /* PBXTargetDependency */,
+			);
+			name = "WorkoutTimerWithWatchAppDeokhoWatchApp Watch App";
+			productName = "WorkoutTimerWithWatchAppDeokhoWatchApp Watch App";
+			productReference = F20D6C362C606B0E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F20D6C552C60A03C00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchAppExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20D6C672C60A03E00808AB0 /* Build configuration list for PBXNativeTarget "WorkoutTimerWithWatchAppDeokhoWatchAppExtension" */;
+			buildPhases = (
+				F20D6C522C60A03C00808AB0 /* Sources */,
+				F20D6C532C60A03C00808AB0 /* Frameworks */,
+				F20D6C542C60A03C00808AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkoutTimerWithWatchAppDeokhoWatchAppExtension;
+			productName = WorkoutTimerWithWatchAppDeokhoWatchAppExtension;
+			productReference = F20D6C562C60A03C00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchAppExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F25EA7962C605D60000273C5 /* WorkoutTimerWithWatchAppDeokho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25EA7A52C605D61000273C5 /* Build configuration list for PBXNativeTarget "WorkoutTimerWithWatchAppDeokho" */;
+			buildPhases = (
+				F25EA7932C605D60000273C5 /* Sources */,
+				F25EA7942C605D60000273C5 /* Frameworks */,
+				F25EA7952C605D60000273C5 /* Resources */,
+				F25EA7CB2C606435000273C5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F20D6C422C606B1000808AB0 /* PBXTargetDependency */,
+			);
+			name = WorkoutTimerWithWatchAppDeokho;
+			productName = WorkoutTimerWithWatchAppDeokho;
+			productReference = F25EA7972C605D60000273C5 /* WorkoutTimerWithWatchAppDeokho.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25EA78F2C605D60000273C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F20D6C352C606B0E00808AB0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F20D6C552C60A03C00808AB0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F25EA7962C605D60000273C5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F25EA7922C605D60000273C5 /* Build configuration list for PBXProject "WorkoutTimerWithWatchAppDeokho" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F25EA78E2C605D60000273C5;
+			productRefGroup = F25EA7982C605D60000273C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F25EA7962C605D60000273C5 /* WorkoutTimerWithWatchAppDeokho */,
+				F20D6C352C606B0E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp Watch App */,
+				F20D6C552C60A03C00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchAppExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F20D6C342C606B0E00808AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20D6C402C606B1000808AB0 /* Preview Assets.xcassets in Resources */,
+				F20D6C3D2C606B1000808AB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20D6C542C60A03C00808AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20D6C622C60A03E00808AB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25EA7952C605D60000273C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25EA7A22C605D61000273C5 /* Preview Assets.xcassets in Resources */,
+				F25EA79F2C605D61000273C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F20D6C322C606B0E00808AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20D6C4B2C608B6D00808AB0 /* WorkOutViewModel.swift in Sources */,
+				F20D6C3B2C606B0E00808AB0 /* TimerView.swift in Sources */,
+				F20D6C512C60914300808AB0 /* BannerView.swift in Sources */,
+				F20D6C492C606B2C00808AB0 /* WorkOutModel.swift in Sources */,
+				F20D6C392C606B0E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchAppApp.swift in Sources */,
+				F20D6C4D2C608F5700808AB0 /* WorkoutView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20D6C522C60A03C00808AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20D6C5E2C60A03C00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25EA7932C605D60000273C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25EA7AC2C605DB5000273C5 /* TimerVIew.swift in Sources */,
+				F25EA7B42C605E76000273C5 /* WorkOutModel.swift in Sources */,
+				F25EA7B22C605E56000273C5 /* WorkoutViewModel.swift in Sources */,
+				F25EA7AE2C605DCE000273C5 /* WorkoutView.swift in Sources */,
+				F25EA79B2C605D60000273C5 /* WorkoutTimerWithWatchAppDeokhoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F20D6C422C606B1000808AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F20D6C352C606B0E00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchApp Watch App */;
+			targetProxy = F20D6C412C606B1000808AB0 /* PBXContainerItemProxy */;
+		};
+		F20D6C652C60A03E00808AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F20D6C552C60A03C00808AB0 /* WorkoutTimerWithWatchAppDeokhoWatchAppExtension */;
+			targetProxy = F20D6C642C60A03E00808AB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F20D6C452C606B1000808AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WorkoutTimerWithWatchAppDeokhoWatchApp Watch App/";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorkoutTimerWithWatchAppDeokhoWatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = L3L2WN7T88;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "운동타이머";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = deokho.WorkoutTimerWithWatchAppDeokho;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deokho.WorkoutTimerWithWatchAppDeokho.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		F20D6C462C606B1000808AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WorkoutTimerWithWatchAppDeokhoWatchApp Watch App/";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorkoutTimerWithWatchAppDeokhoWatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = L3L2WN7T88;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "운동타이머";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = deokho.WorkoutTimerWithWatchAppDeokho;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deokho.WorkoutTimerWithWatchAppDeokho.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		F20D6C682C60A03E00808AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3L2WN7T88;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorkoutTimerWithWatchAppDeokhoWatchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "운동타이머";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deokho.WorkoutTimerWithWatchAppDeokho.watchkitapp.WorkoutTimerWithWatchAppDeokhoWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		F20D6C692C60A03E00808AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3L2WN7T88;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorkoutTimerWithWatchAppDeokhoWatchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "운동타이머";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deokho.WorkoutTimerWithWatchAppDeokho.watchkitapp.WorkoutTimerWithWatchAppDeokhoWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		F25EA7A32C605D61000273C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F25EA7A42C605D61000273C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F25EA7A62C605D61000273C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_ASSET_PATHS = "\"WorkoutTimerWithWatchAppDeokho/Preview Content\"";
+				DEVELOPMENT_TEAM = L3L2WN7T88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorkoutTimerWithWatchAppDeokho/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "운동타이머";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deokho.WorkoutTimerWithWatchAppDeokho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F25EA7A72C605D61000273C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_ASSET_PATHS = "\"WorkoutTimerWithWatchAppDeokho/Preview Content\"";
+				DEVELOPMENT_TEAM = L3L2WN7T88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorkoutTimerWithWatchAppDeokho/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "운동타이머";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deokho.WorkoutTimerWithWatchAppDeokho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F20D6C442C606B1000808AB0 /* Build configuration list for PBXNativeTarget "WorkoutTimerWithWatchAppDeokhoWatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20D6C452C606B1000808AB0 /* Debug */,
+				F20D6C462C606B1000808AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20D6C672C60A03E00808AB0 /* Build configuration list for PBXNativeTarget "WorkoutTimerWithWatchAppDeokhoWatchAppExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20D6C682C60A03E00808AB0 /* Debug */,
+				F20D6C692C60A03E00808AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25EA7922C605D60000273C5 /* Build configuration list for PBXProject "WorkoutTimerWithWatchAppDeokho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25EA7A32C605D61000273C5 /* Debug */,
+				F25EA7A42C605D61000273C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25EA7A52C605D61000273C5 /* Build configuration list for PBXNativeTarget "WorkoutTimerWithWatchAppDeokho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25EA7A62C605D61000273C5 /* Debug */,
+				F25EA7A72C605D61000273C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25EA78F2C605D60000273C5 /* Project object */;
+}
