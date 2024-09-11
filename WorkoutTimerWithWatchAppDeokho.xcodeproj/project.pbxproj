@@ -24,7 +24,6 @@
 		F25EA79B2C605D60000273C5 /* WorkoutTimerWithWatchAppDeokhoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25EA79A2C605D60000273C5 /* WorkoutTimerWithWatchAppDeokhoApp.swift */; };
 		F25EA79F2C605D61000273C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25EA79E2C605D61000273C5 /* Assets.xcassets */; };
 		F25EA7A22C605D61000273C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25EA7A12C605D61000273C5 /* Preview Assets.xcassets */; };
-		F25EA7AC2C605DB5000273C5 /* TimerVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25EA7AB2C605DB5000273C5 /* TimerVIew.swift */; };
 		F25EA7AE2C605DCE000273C5 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25EA7AD2C605DCE000273C5 /* WorkoutView.swift */; };
 		F25EA7B22C605E56000273C5 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25EA7B12C605E56000273C5 /* WorkoutViewModel.swift */; };
 		F25EA7B42C605E76000273C5 /* WorkOutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25EA7B32C605E76000273C5 /* WorkOutModel.swift */; };
@@ -92,7 +91,6 @@
 		F25EA79A2C605D60000273C5 /* WorkoutTimerWithWatchAppDeokhoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimerWithWatchAppDeokhoApp.swift; sourceTree = "<group>"; };
 		F25EA79E2C605D61000273C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F25EA7A12C605D61000273C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F25EA7AB2C605DB5000273C5 /* TimerVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVIew.swift; sourceTree = "<group>"; };
 		F25EA7AD2C605DCE000273C5 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 		F25EA7B12C605E56000273C5 /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
 		F25EA7B32C605E76000273C5 /* WorkOutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOutModel.swift; sourceTree = "<group>"; };
@@ -208,7 +206,6 @@
 			children = (
 				F20D6C6B2C60A80600808AB0 /* Info.plist */,
 				F25EA79A2C605D60000273C5 /* WorkoutTimerWithWatchAppDeokhoApp.swift */,
-				F25EA7A82C605D7F000273C5 /* Timer */,
 				F25EA7A92C605D8D000273C5 /* Workout */,
 				F25EA79E2C605D61000273C5 /* Assets.xcassets */,
 				F25EA7A02C605D61000273C5 /* Preview Content */,
@@ -222,14 +219,6 @@
 				F25EA7A12C605D61000273C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		F25EA7A82C605D7F000273C5 /* Timer */ = {
-			isa = PBXGroup;
-			children = (
-				F25EA7AB2C605DB5000273C5 /* TimerVIew.swift */,
-			);
-			path = Timer;
 			sourceTree = "<group>";
 		};
 		F25EA7A92C605D8D000273C5 /* Workout */ = {
@@ -396,7 +385,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F25EA7AC2C605DB5000273C5 /* TimerVIew.swift in Sources */,
 				F25EA7B42C605E76000273C5 /* WorkOutModel.swift in Sources */,
 				F25EA7B22C605E56000273C5 /* WorkoutViewModel.swift in Sources */,
 				F25EA7AE2C605DCE000273C5 /* WorkoutView.swift in Sources */,
