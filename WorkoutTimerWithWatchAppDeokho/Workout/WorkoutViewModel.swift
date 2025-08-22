@@ -20,7 +20,6 @@ final class WorkOutViewModel: NSObject, ObservableObject, WCSessionDelegate {
     @Published var isLoading = false
     @Published var response = false
 
-
     private var session: WCSession?
 
     override init() {
@@ -65,6 +64,15 @@ final class WorkOutViewModel: NSObject, ObservableObject, WCSessionDelegate {
         }
         workOutModels[sectionIndex].detailModels[detailIndex].reps = reps
         workOutModels[sectionIndex].detailModels[detailIndex].weight = weight
+    }
+
+    // 운동 이름 수정 함수 추가
+    func updateWorkOutName(at sectionIndex: Int, detailIndex: Int, name: String) {
+        guard sectionIndex < workOutModels.count,
+              detailIndex < workOutModels[sectionIndex].detailModels.count else {
+            return
+        }
+        workOutModels[sectionIndex].detailModels[detailIndex].workOutName = name
     }
 
     func sendSession() {
@@ -129,5 +137,4 @@ final class WorkOutViewModel: NSObject, ObservableObject, WCSessionDelegate {
     
     func sessionDidBecomeInactive(_ session: WCSession) { }
     func sessionDidDeactivate(_ session: WCSession) { }
-
 }

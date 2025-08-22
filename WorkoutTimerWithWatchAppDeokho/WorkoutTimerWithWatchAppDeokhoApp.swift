@@ -9,8 +9,6 @@ import SwiftUI
 
 @main
 struct WorkoutTimerWithWatchAppDeokhoApp: App {
-
-    
     var body: some Scene {
         WindowGroup {
                 WorkoutView()

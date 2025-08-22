@@ -15,7 +15,11 @@ struct WorkoutView: View {
     @State private var newWorkOutName = ""
     @State private var selectedSectionIndex: Int?
     @State private var expandedSectionIndex: Int?
-
+    // 운동 이름 수정을 위한 상태 추가
+    @State private var showingEditWorkOutAlert = false
+    @State private var editWorkOutName = ""
+    @State private var editingSectionIndex: Int?
+    @State private var editingDetailIndex: Int?
 
     var body: some View {
         NavigationView {
@@ -38,7 +42,14 @@ struct WorkoutView: View {
                                     WorkoutDetailRow(viewModel: viewModel,
                                                      sectionIndex: index,
                                                      detailIndex: detailIndex,
-                                                     workOutName: detail.workOutName)
+                                                     workOutName: detail.workOutName,
+                                                     onEditName: {
+                                                         // 운동 이름 수정 액션
+                                                         editingSectionIndex = index
+                                                         editingDetailIndex = detailIndex
+                                                         editWorkOutName = detail.workOutName
+                                                         showingEditWorkOutAlert = true
+                                                     })
                                     .swipeActions(edge: .trailing, allowsFullSwipe: true) {
                                         Button(role: .destructive) {
                                             viewModel.deleteWorkOut(at: index, offsets: IndexSet(integer: detailIndex))
@@ -123,6 +134,27 @@ struct WorkoutView: View {
         } message: {
             Text("새로운 운동의 이름을 입력하세요.\nex) 스쿼트, 데드리프트")
         }
+        // 운동 이름 수정 알럿 추가
+        .alert("운동 이름 수정", isPresented: $showingEditWorkOutAlert) {
+            TextField("운동 이름", text: $editWorkOutName)
+            Button("수정") {
+                if !editWorkOutName.isEmpty,
+                   let sectionIndex = editingSectionIndex,
+                   let detailIndex = editingDetailIndex {
+                    viewModel.updateWorkOutName(at: sectionIndex, detailIndex: detailIndex, name: editWorkOutName)
+                    editWorkOutName = ""
+                    editingSectionIndex = nil
+                    editingDetailIndex = nil
+                }
+            }
+            Button("취소", role: .cancel) {
+                editWorkOutName = ""
+                editingSectionIndex = nil
+                editingDetailIndex = nil
+            }
+        } message: {
+            Text("운동 이름을 수정하세요.")
+        }
     }
 }
 
@@ -131,13 +163,15 @@ struct WorkoutDetailRow: View {
     let workOutName: String
     let sectionIndex: Int
     let detailIndex: Int
+    let onEditName: () -> Void  // 이름 수정 콜백 추가
     @State private var reps: String = ""
     @State private var weight: String = ""
 
-    init(viewModel: WorkOutViewModel, sectionIndex: Int, detailIndex: Int, workOutName: String) {
+    init(viewModel: WorkOutViewModel, sectionIndex: Int, detailIndex: Int, workOutName: String, onEditName: @escaping () -> Void) {
         self.viewModel = viewModel
         self.sectionIndex = sectionIndex
         self.detailIndex = detailIndex
+        self.onEditName = onEditName
         reps =  String(viewModel.workOutModels[sectionIndex].detailModels[detailIndex].reps)
         weight = String(viewModel.workOutModels[sectionIndex].detailModels[detailIndex].weight)
         self.workOutName = workOutName
@@ -145,8 +179,20 @@ struct WorkoutDetailRow: View {
 
     var body: some View {
         VStack(alignment: .leading) {
-            Text(workOutName)
-                .fontWeight(.medium)
+            // 운동 이름을 탭할 수 있도록 수정
+            Button(action: onEditName) {
+                HStack {
+                    Text(workOutName)
+                        .fontWeight(.medium)
+                        .foregroundColor(.primary)
+                    Spacer()
+                    Image(systemName: "pencil")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
+            }
+            .buttonStyle(PlainButtonStyle())
+            
             HStack {
                 TextField("횟수", text: $reps)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
